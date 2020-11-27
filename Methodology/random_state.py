@@ -17,3 +17,23 @@ print("The state from Midwest we'll use is", random.choice(midwest))
 print("The state from West we'll use is", random.choice(west))
 print("The state from South we'll use is", random.choice(south))
 
+ALTERNATIVE:
+
+import random
+
+random.seed(1)
+print("The state representing the North-East is:", random.choice(['Maine', 'New Hampshire', 'Massachusetts', 'Vermont','New York',
+                                                                  'New Jersey', 'Pennsylvania', 'Connecticut', 'Rhode Island']))
+
+random.seed(1)
+print("The state representing the Midwest is:", random.choice(['Illinois', 'Indiana', 'South Dakota', 'Ohio', 'Wisconsin', 'Iowa',
+                                                               'Kansas', 'Minnesota', 'Missouri', 'Nebraska', 'North Dakota', 'Michigan']))
+
+random.seed(1)
+print("The state representing the West is:", random.choice(['Arizona', 'Colorado', 'Oregon', 'Montana', 'Nevada', 'New Mexico',
+                                                            'Utah', 'Wyoming', 'Alaska', 'California', 'Hawaii', 'Idaho', 'Washington']))
+
+random.seed(1)
+print("The state representing the South is:", random.choice(['Delaware', 'North Carolina', 'Georgia', 'Maryland', 'Florida', 'South Carolina',
+                                                             'Virginia', 'Washington D.C.', 'West Virginia', 'Alabama', 'Kentucky', 'Mississippi', 
+                                                             'Tennessee', 'Arkansas', 'Louisiana', 'Oklahoma', 'Texas']))
