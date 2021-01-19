@@ -26,6 +26,8 @@ ics_data = pandas.read_csv('Initial Comparative Data.csv', index_col=0)
 
 ics_data.head()
 
+# 31-71 "Populations by Ethnicity"
+
 N = 5
 
 whitepop = (ics_data['White Pop %'].loc['England and Wales'],
@@ -68,6 +70,8 @@ plt.legend((p1[0], p2[0], p3[0]), ('White Population', 'Black Population', 'Othe
 
 plt.show()
 
+# 75-93 "Populations by Number"
+
 N = 5
 
 totalpop = (ics_data['Total Pop Mill'].loc['England and Wales'],
@@ -87,6 +91,8 @@ plt.xticks(ind, ('E+W', 'Florida', 'Massachusetts', 'Oregon', 'S. Dakota'))
 plt.yticks(np.arange(0, 61, 5))
 
 plt.show()
+
+# 97-123 "Arrest and Incarceration Rates"
 
 N = 5
 
